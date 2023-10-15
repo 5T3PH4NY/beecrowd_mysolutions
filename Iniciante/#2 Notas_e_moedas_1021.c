@@ -2,6 +2,13 @@
 #include <stdio.h>
 #include <math.h>
 
+/*Com a correção do arredondamento
+automático que o primeiro commit 
+dessa solução possuía. Além disso, é
+uma solução mais intuitiva, apesar de
+que repetitiva, para esse problema.
+*/
+
 int main(){
     
     float val;
