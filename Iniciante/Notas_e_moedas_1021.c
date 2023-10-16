@@ -6,7 +6,8 @@ int main(){
     scanf("%lf", &n);
     printf("NOTAS:\n");
     t = 0;
-    n+=1e-9;
+    n = n + 1e-9;
+ 
     while (d[t] >= 0.01){
         c = 0;
         while (n >= d[t]){
